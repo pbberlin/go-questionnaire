@@ -266,7 +266,7 @@ func RegistrationFMTDeH(w http.ResponseWriter, r *http.Request) {
 		s2 := strings.ReplaceAll(w1.String(), "replace_me_1",
 			`<div style="aamargin-top: 1.8em; max-width: 18rem; ">
 			Ich erkläre mich mit den <a tabindex='-1'
-			href='https://www.zew.de/de/datenschutz' target='_blank' >Datenschutzbestimmungen</a>
+			href='https://survey2.zew.de/img/pdf/2026-07-09_DSGVO-Mitteilung_Panel-Teilnehmende_v1.1_freigegeben.pdf' target='_blank' >Datenschutzbestimmungen</a>
 			einverstanden</div>`,
 		)
 

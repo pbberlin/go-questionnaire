@@ -46,6 +46,8 @@ let getUserInput = evt => {
         if (doContinue) {
             submitFrmMainNoReload()
             return true;
+        } else {
+            inpLeave.checked = false;
         }
 
         // not only return false - but also preventDefault()

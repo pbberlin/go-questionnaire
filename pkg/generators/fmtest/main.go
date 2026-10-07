@@ -1099,10 +1099,13 @@ func Create(s qst.SurveyT) (*qst.QuestionnaireT, error) {
 			{
 				inp := gr.AddInput()
 				inp.Type = "textblock"
-				inp.Label = trl.S{"de": "", "en": ""}
 				inp.Label = trl.S{
 					"de": "Durch Klicken erhalten Sie eine Zusammenfassung Ihrer Antworten",
 					"en": "By clicking, you will receive a summary of your answers.",
+				}
+				inp.Label = trl.S{
+					"de": " &nbsp; ",
+					"en": " &nbsp; ",
 				}
 				inp.ColSpan = 1
 				inp.ColSpanLabel = 1

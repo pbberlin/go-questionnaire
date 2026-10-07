@@ -280,7 +280,7 @@ func RegistrationFMTEnH(w http.ResponseWriter, r *http.Request) {
 		s2 := strings.ReplaceAll(w1.String(), "replace_me_1",
 			`<div style="aamargin-top: 1.8em; max-width: 18rem; ">
 			I acknowledge the  <a tabindex='-1'
-			href='https://www.zew.de/en/commitment-to-data-protection' target='_blank' >date protection terms</a>
+			href='https://survey2.zew.de/img/pdf/2026-07-09_GDPR-Notice_Panel-Participants_v1.1_approved.pdf' target='_blank' >date protection terms</a>
 			</div>`,
 		)
 

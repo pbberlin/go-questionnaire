@@ -129,6 +129,16 @@ i {
     padding-right: 0.2em;    
 }
 
+.first-row-padding-bottom {
+    
+}
+/* 1st month in quarter - special question three - second row  */
+.first-row-padding-bottom > :nth-child(2),
+.first-row-padding-bottom > :nth-child(3),
+.first-row-padding-bottom > :nth-child(4),
+dummy {
+    padding-bottom: 1.75ch; 
+}
 
 /* 
     =========================================

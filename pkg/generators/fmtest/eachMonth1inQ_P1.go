@@ -602,7 +602,8 @@ func eachMonth1inQ_P1(q *qst.QuestionnaireT) error {
 		if true {
 			moreInps := []string{
 				"rev_tariffs",
-				"rev_fiscal_spending",
+				"rev_defense_euroarea",
+				"rev_energy_relief",
 			}
 
 			rowInpNames = append(rowInpNames, moreInps...)
@@ -612,8 +613,12 @@ func eachMonth1inQ_P1(q *qst.QuestionnaireT) error {
 					"en": "US trade protectionism/ tariffs",
 				},
 				{
-					"de": "Verteidigungs- und Investitionsausgaben der deutschen Bundesregierung",
-					"en": "Defense and investment spending by the German government",
+					"de": "Verteidigungs- und Investitionsausgaben im Euroraum",
+					"en": "Defense and investment spending in the euro area",
+				},
+				{
+					"de": "Maßnahmen zur Entlastung der Haushalte (z.B. Energiepreisbremse, Tankrabatt)",
+					"en": "Measures to support households (e.g. energy price caps, fuel tax cuts)",
 				},
 			}
 
@@ -761,6 +766,8 @@ func eachMonth1inQ_P1(q *qst.QuestionnaireT) error {
 		gr.Style = css.NewStylesResponsive(gr.Style)
 		gr.Style.Desktop.StyleBox.Width = "70%"
 		gr.Style.Mobile.StyleBox.Width = "100%"
+
+		gr.Class = "first-row-padding-bottom"
 
 		// row-1
 		{

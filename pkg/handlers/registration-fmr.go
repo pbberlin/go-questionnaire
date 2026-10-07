@@ -101,7 +101,7 @@ func RegistrationFMRH(w http.ResponseWriter, r *http.Request) {
 
 	fmt.Fprint(w1, s2f.Form(*frm))
 
-	s2 := strings.ReplaceAll(w1.String(), "replace_me", `Ich erkläre mich mit den <a tabindex='-1' href='https://www.zew.de/de/datenschutz' target='_blank' >Datenschutzbestimmungen</a> einverstanden`)
+	s2 := strings.ReplaceAll(w1.String(), "replace_me", `Ich erkläre mich mit den <a tabindex='-1' href='https://survey2.zew.de/img/pdf/2026-07-09_DSGVO-Mitteilung_Panel-Teilnehmende_v1.1_freigegeben.pdf' target='_blank' >Datenschutzbestimmungen</a> einverstanden`)
 
 	s2 = strings.ReplaceAll(s2, ">Email", ">E-Mail")
 	s2 = strings.ReplaceAll(s2, ">Vorname", ">Vorname (optional)")

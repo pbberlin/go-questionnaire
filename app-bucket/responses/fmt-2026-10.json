@@ -24,7 +24,7 @@
  		]
  	},
  	"closing_time": "0001-01-01T00:00:00Z",
- 	"md_5": "3bd4326867d9ad0e08d93ed6c7119f829647db1c6e0e34a98370ecff74b075c2",
+ 	"md_5": "46ee611413a81acff7cc33d9c28e2feb988eb8c301aea958585d09eb6c641ac8",
  	"lang_codes": [
  		"de",
  		"en"
@@ -6643,8 +6643,8 @@
  							"name": "rev_fiscal_spending",
  							"type": "radio",
  							"label": {
- 								"de": "Verteidigungs- und Investitionsausgaben der deutschen Bundesre\u0026shy;gie\u0026shy;rung",
- 								"en": "Defense and in\u0026shy;vest\u0026shy;ment spending by the German government"
+ 								"de": "Verteidigungs- und Investitionsausgaben im Euro\u0026shy;raum",
+ 								"en": "Defense and in\u0026shy;vest\u0026shy;ment spending in the euro area"
  							},
  							"col_span_label": 3.6,
  							"col_span_control": 1,
@@ -6692,6 +6692,64 @@
  						},
  						{
  							"name": "rev_fiscal_spending",
+ 							"type": "radio",
+ 							"col_span_label": 0.4,
+ 							"col_span_control": 1,
+ 							"value_radio": "6"
+ 						},
+ 						{
+ 							"name": "rev_energy_relief",
+ 							"type": "radio",
+ 							"label": {
+ 								"de": "Maßnahmen zur Entlastung der Haushalte (z.B. Energiepreisbremsen, Tankrabatt)",
+ 								"en": "Measures to support households (e.g. energy price caps, fuel tax cuts)"
+ 							},
+ 							"col_span_label": 3.6,
+ 							"col_span_control": 1,
+ 							"value_radio": "1",
+ 							"style_label": {
+ 								"desktop": {
+ 									"grid_container_style": {},
+ 									"box_style": {},
+ 									"grid_item_style": {},
+ 									"text_style": {
+ 										"align_horizontal": "left"
+ 									}
+ 								},
+ 								"mobile": {
+ 									"grid_container_style": {},
+ 									"box_style": {},
+ 									"grid_item_style": {},
+ 									"text_style": {}
+ 								}
+ 							}
+ 						},
+ 						{
+ 							"name": "rev_energy_relief",
+ 							"type": "radio",
+ 							"col_span_control": 1,
+ 							"value_radio": "2"
+ 						},
+ 						{
+ 							"name": "rev_energy_relief",
+ 							"type": "radio",
+ 							"col_span_control": 1,
+ 							"value_radio": "3"
+ 						},
+ 						{
+ 							"name": "rev_energy_relief",
+ 							"type": "radio",
+ 							"col_span_control": 1,
+ 							"value_radio": "4"
+ 						},
+ 						{
+ 							"name": "rev_energy_relief",
+ 							"type": "radio",
+ 							"col_span_control": 1,
+ 							"value_radio": "5"
+ 						},
+ 						{
+ 							"name": "rev_energy_relief",
  							"type": "radio",
  							"col_span_label": 0.4,
  							"col_span_control": 1,
@@ -7225,7 +7283,8 @@
  							"grid_item_style": {},
  							"text_style": {}
  						}
- 					}
+ 					},
+ 					"class": "first-row-padding-bottom"
  				}
  			]
  		},
@@ -7762,8 +7821,8 @@
  						{
  							"type": "textblock",
  							"label": {
- 								"de": "Durch Klicken er\u0026shy;hal\u0026shy;ten Sie eine Zusammenfassung Ihrer Ant\u0026shy;worten",
- 								"en": "By clicking, you will receive a summary of your an\u0026shy;swers."
+ 								"de": " \u0026nbsp; ",
+ 								"en": " \u0026nbsp; "
  							},
  							"col_span": 1,
  							"col_span_label": 1
