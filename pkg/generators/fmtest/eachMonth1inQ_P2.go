@@ -2,6 +2,7 @@ package fmtest
 
 import (
 	"fmt"
+	"strings"
 
 	"github.com/zew/go-questionnaire/pkg/css"
 	"github.com/zew/go-questionnaire/pkg/qst"
@@ -83,37 +84,28 @@ func eachMonth1inQ_P2(q *qst.QuestionnaireT) error {
 	cond := false
 	cond = cond || q.Survey.Year == 2026 && q.Survey.Month == 4
 	cond = cond || q.Survey.Year == 2026 && q.Survey.Month == 7
+	cond = cond || q.Survey.Year == 2026 && q.Survey.Month == 10
 	if !cond {
 		return nil
 	}
 
-	depoRateDe := "2,00%"
-	depoRateEn := "2.00%"
+	ecbDepositRate, err := q.Survey.Param("deposit_facility_rate_ecb")
+	// https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html
+	if err != nil {
+		return fmt.Errorf("set field 'deposit_facility_rate_ecb' ; error was %v", err)
+	}
+
+	depoRateDe := ecbDepositRate
+	depoRateEn := strings.Replace(ecbDepositRate, ",", ".", -1)
 	inps := []string{
-		"26_04",
-		"26_06",
-		"26_07",
-		"26_09",
 		"26_10",
 		"26_12",
+		"27_02",
+		"27_03",
+		"27_04",
+		"27_06",
 	}
 	rowLbls := []trl.S{
-		{
-			"de": "30.&nbsp;April&nbsp;2026",
-			"en": "30&nbsp;April&nbsp;2026",
-		},
-		{
-			"de": "11.&nbsp;Juni&nbsp;2026",
-			"en": "11&nbsp;June&nbsp;2026",
-		},
-		{
-			"de": "23.&nbsp;Juli&nbsp;2026",
-			"en": "23&nbsp;July&nbsp;2026",
-		},
-		{
-			"de": "10.&nbsp;September&nbsp;2026",
-			"en": "10&nbsp;September&nbsp;2026",
-		},
 		{
 			"de": "29.&nbsp;Oktober&nbsp;2026",
 			"en": "29&nbsp;October&nbsp;2026",
@@ -122,11 +114,25 @@ func eachMonth1inQ_P2(q *qst.QuestionnaireT) error {
 			"de": "17.&nbsp;Dezember&nbsp;2026",
 			"en": "17&nbsp;December&nbsp;2026",
 		},
+		{
+			"de": "4. Februar 2027",
+			"en": "4 February 2027",
+		},
+		{
+			"de": "18. März 2027",
+			"en": "18 March 2027",
+		},
+		{
+			"de": "29. April 2027",
+			"en": "29 April  2027",
+		},
+		{
+			"de": "10. Juni 2027",
+			"en": "10 June  2027",
+		},
 	}
 
 	if q.Survey.Year == 2026 && q.Survey.Month == 7 {
-		depoRateDe = "2,25%"
-		depoRateEn = "2.25%"
 		inps = []string{
 			"26_07",
 			"26_09",
