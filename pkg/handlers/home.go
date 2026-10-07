@@ -466,6 +466,8 @@ func MainH(w http.ResponseWriter, r *http.Request) {
 
 	if r.RemoteAddr != "" {
 		q.RemoteIP = r.RemoteAddr
+		// 2026-10
+		q.RemoteIP = "not-saved"
 	}
 	q.UserAgent = r.Header.Get("User-Agent")
 

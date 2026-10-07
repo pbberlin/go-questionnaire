@@ -24,7 +24,7 @@
  		]
  	},
  	"closing_time": "0001-01-01T00:00:00Z",
- 	"md_5": "46ee611413a81acff7cc33d9c28e2feb988eb8c301aea958585d09eb6c641ac8",
+ 	"md_5": "1f1617c7be3cbbc3baeacfed35c758c6baf59a10860960123c8a96ab25611402",
  	"lang_codes": [
  		"de",
  		"en"
@@ -6640,7 +6640,7 @@
  							"value_radio": "6"
  						},
  						{
- 							"name": "rev_fiscal_spending",
+ 							"name": "rev_defense_euroarea",
  							"type": "radio",
  							"label": {
  								"de": "Verteidigungs- und Investitionsausgaben im Euro\u0026shy;raum",
@@ -6667,31 +6667,31 @@
  							}
  						},
  						{
- 							"name": "rev_fiscal_spending",
+ 							"name": "rev_defense_euroarea",
  							"type": "radio",
  							"col_span_control": 1,
  							"value_radio": "2"
  						},
  						{
- 							"name": "rev_fiscal_spending",
+ 							"name": "rev_defense_euroarea",
  							"type": "radio",
  							"col_span_control": 1,
  							"value_radio": "3"
  						},
  						{
- 							"name": "rev_fiscal_spending",
+ 							"name": "rev_defense_euroarea",
  							"type": "radio",
  							"col_span_control": 1,
  							"value_radio": "4"
  						},
  						{
- 							"name": "rev_fiscal_spending",
+ 							"name": "rev_defense_euroarea",
  							"type": "radio",
  							"col_span_control": 1,
  							"value_radio": "5"
  						},
  						{
- 							"name": "rev_fiscal_spending",
+ 							"name": "rev_defense_euroarea",
  							"type": "radio",
  							"col_span_label": 0.4,
  							"col_span_control": 1,
@@ -6701,7 +6701,7 @@
  							"name": "rev_energy_relief",
  							"type": "radio",
  							"label": {
- 								"de": "Maßnahmen zur Entlastung der Haushalte (z.B. Energiepreisbremsen, Tankrabatt)",
+ 								"de": "Maßnahmen zur Entlastung der Haushalte (z.B. Energiepreisbremse, Tankrabatt)",
  								"en": "Measures to support households (e.g. energy price caps, fuel tax cuts)"
  							},
  							"col_span_label": 3.6,
