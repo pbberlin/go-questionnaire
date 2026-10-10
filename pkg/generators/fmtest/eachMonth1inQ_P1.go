@@ -658,12 +658,12 @@ func eachMonth1inQ_P1(q *qst.QuestionnaireT) error {
 		*/
 
 		changeYrDe := fmt.Sprintf("<b>Für die Jahre %d, %d und %d</b>", q.Survey.Year+0, q.Survey.Year+1, q.Survey.Year+2)
-		if q.Survey.Month <= 3 {
+		if true || q.Survey.Month <= 3 {
 			changeYrDe = fmt.Sprintf("<b>Für die Jahre %d und %d</b>", q.Survey.Year+0, q.Survey.Year+1)
 		}
 
 		changeYrEn := fmt.Sprintf("<b>For the years %d, %d and %d</b>", q.Survey.Year+0, q.Survey.Year+1, q.Survey.Year+2)
-		if q.Survey.Month <= 3 {
+		if true || q.Survey.Month <= 3 {
 			changeYrEn = fmt.Sprintf("<b>For the years %d and %d</b>", q.Survey.Year+0, q.Survey.Year+1)
 		}
 

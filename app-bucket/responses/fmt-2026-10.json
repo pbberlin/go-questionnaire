@@ -11,7 +11,7 @@
  		},
  		"year": 2026,
  		"month": 10,
- 		"deadline": "2026-10-28T23:59:00+01:00",
+ 		"deadline": "2026-10-19T17:15:00+02:00",
  		"params": [
  			{
  				"name": "main_refinance_rate_ecb",
@@ -24,7 +24,7 @@
  		]
  	},
  	"closing_time": "0001-01-01T00:00:00Z",
- 	"md_5": "1f1617c7be3cbbc3baeacfed35c758c6baf59a10860960123c8a96ab25611402",
+ 	"md_5": "f7063055014570188a0c930b52ab9410164086c33281de7ea3cf7acfdba5b1da",
  	"lang_codes": [
  		"de",
  		"en"
@@ -5671,8 +5671,8 @@
  						{
  							"type": "textblock",
  							"label": {
- 								"de": "\u003cb\u003e2.\u003c/b\u003e \u0026nbsp; \n\t\t\t\tHaben Entwicklungen in den folgenden Bereichen Sie zu einer Revision\n\t\t\t\tIhrer \u003cb\u003eIn\u0026shy;fla\u0026shy;ti\u0026shy;onspro\u0026shy;gno\u0026shy;sen\u003c/b\u003e für den Euro\u0026shy;raum (ggü. Juli 2026) bewogen\n\t\t\t\tund wenn ja, nach oben (+) oder unten (-)?\n\t\t\t\t\u003cbr\u003e\n\t\t\t\t\u003cbr\u003e\n\t\t\t\t\u003cb\u003eFür die Jahre 2026, 2027 und 2028\u003c/b\u003e\n\t\t\t",
- 								"en": "\u003cb\u003e2.\u003c/b\u003e \u0026nbsp; \n\t\t\t\tWhat are the main factors leading you to change your in\u0026shy;fla\u0026shy;ti\u0026shy;on forecasts\n\t\t\t\tfor the euro area (in comparison to your forecasts as of July 2026).\n\t\t\t\t(+) means in\u0026shy;crease in in\u0026shy;fla\u0026shy;ti\u0026shy;on forecast,\n\t\t\t\t(-) means de\u0026shy;crease in in\u0026shy;fla\u0026shy;ti\u0026shy;on forecast.\n\t\t\t\t\u003cbr\u003e\n\t\t\t\t\u003cbr\u003e\n\t\t\t\t\u003cb\u003eFor the years 2026, 2027 and 2028\u003c/b\u003e\n\t\t\t"
+ 								"de": "\u003cb\u003e2.\u003c/b\u003e \u0026nbsp; \n\t\t\t\tHaben Entwicklungen in den folgenden Bereichen Sie zu einer Revision\n\t\t\t\tIhrer \u003cb\u003eIn\u0026shy;fla\u0026shy;ti\u0026shy;onspro\u0026shy;gno\u0026shy;sen\u003c/b\u003e für den Euro\u0026shy;raum (ggü. Juli 2026) bewogen\n\t\t\t\tund wenn ja, nach oben (+) oder unten (-)?\n\t\t\t\t\u003cbr\u003e\n\t\t\t\t\u003cbr\u003e\n\t\t\t\t\u003cb\u003eFür die Jahre 2026 und 2027\u003c/b\u003e\n\t\t\t",
+ 								"en": "\u003cb\u003e2.\u003c/b\u003e \u0026nbsp; \n\t\t\t\tWhat are the main factors leading you to change your in\u0026shy;fla\u0026shy;ti\u0026shy;on forecasts\n\t\t\t\tfor the euro area (in comparison to your forecasts as of July 2026).\n\t\t\t\t(+) means in\u0026shy;crease in in\u0026shy;fla\u0026shy;ti\u0026shy;on forecast,\n\t\t\t\t(-) means de\u0026shy;crease in in\u0026shy;fla\u0026shy;ti\u0026shy;on forecast.\n\t\t\t\t\u003cbr\u003e\n\t\t\t\t\u003cbr\u003e\n\t\t\t\t\u003cb\u003eFor the years 2026 and 2027\u003c/b\u003e\n\t\t\t"
  							},
  							"col_span": 6,
  							"col_span_label": 1
