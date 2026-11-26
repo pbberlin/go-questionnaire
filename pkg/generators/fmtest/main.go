@@ -950,6 +950,44 @@ func Create(s qst.SurveyT) (*qst.QuestionnaireT, error) {
 			gr := page.AddGrid(gb)
 			_ = gr
 		}
+
+	}
+
+	if q.Survey.Year == 2026 && q.Survey.Month == 12 {
+
+		page := q.AddPage()
+		page.Label = trl.S{"de": "Ausblick 2026", "en": "Outlook 2026"}
+		page.Short = trl.S{"de": "Ausblick 2026", "en": "Outlook 2026	"}
+		page.WidthMax("42rem")
+
+		{
+			gr := page.AddGroup()
+			gr.Cols = 3
+			gr.BottomVSpacers = 3
+			gr.Style = css.NewStylesResponsive(gr.Style)
+			gr.Class = "group-row-gap-reduced"
+			{
+				inp := gr.AddInput()
+				inp.Type = "textblock"
+				inp.ColSpan = gr.Cols
+				inp.ColSpanLabel = 1
+				inp.ColSpanControl = 0
+				inp.Label = trl.S{
+					"de": `Was sind aus Ihrer Sicht die größten Chancen und Risiken für das Wirtschaftswachstum in Deutschland im Jahr 2027?`,
+					"en": `In your view, what are the greatest opportunities and risks for economic growth in Germany in 2027?`,
+				}.Outline("9.")
+			}
+			{
+				inp := gr.AddInput()
+				inp.Type = "textarea"
+				inp.Name = "q9"
+				inp.MaxChars = 600
+				inp.ColSpan = gr.Cols
+				inp.ColSpanLabel = 0
+				inp.ColSpanControl = 1
+			}
+		}
+
 	}
 
 	// log.Printf("q.Survey.MonthOfQuarter() is %v  (from %v - %v)", q.Survey.MonthOfQuarter(), q.Survey.Year, q.Survey.Month)

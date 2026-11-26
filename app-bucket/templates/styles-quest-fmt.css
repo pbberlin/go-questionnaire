@@ -79,7 +79,10 @@ dummy {
 
 
 
-/* 2026-06 climate */
+/* 
+    "en": "strongly disagree         <br>  <span class='ordinal-numbers'> 1 </span> ",
+	"en": "disagree                  <br>  <span class='ordinal-numbers'> 2 </span> ",
+*/
 .ordinal-numbers {
     display: block;
     font-size: 92%;
@@ -91,7 +94,7 @@ dummy {
 
 
 /* 2026-12 climate */
-.pg07-grp01  {
+.pg08-grp01  {
     margin-bottom: 0.62rem;
     /* background-color: red; */
 }
@@ -123,27 +126,34 @@ dummy {
 /* kursive, italic */
 i {
     /* font-size: 110%; */
-    letter-spacing: 0.020em;    /* Adjust as needed: 0.02em–0.08em is typical */    
-    word-spacing:   0.06em;       
+    letter-spacing: 0.020em;    /* Adjust as needed: 0.02em–0.08em is typical */
+    word-spacing:   0.06em;
 
     padding-left:  0.2em;
-    padding-right: 0.2em;    
+    padding-right: 0.2em;
 }
 
 .first-row-padding-bottom {
-    
+
 }
+
 /* 1st month in quarter - special question three - second row  */
 .first-row-padding-bottom > :nth-child(2),
 .first-row-padding-bottom > :nth-child(3),
 .first-row-padding-bottom > :nth-child(4),
 dummy {
-    padding-bottom: 1.75ch; 
+    padding-bottom: 1.75ch;
 }
 
-/* 
+.group-row-gap-reduced {
+    grid-row-gap: 0.35rem !important; 
+}
+
+
+
+/*
     =========================================
-    mobile changes at the end - also specials 
+    mobile changes at the end - also specials
     =========================================
 */
 
@@ -178,10 +188,4 @@ dummy {
     {
         max-width: 5rem;
     }
-
-
- 
-
- 
-
 }

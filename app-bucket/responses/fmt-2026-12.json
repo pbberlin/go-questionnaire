@@ -24,7 +24,7 @@
  		]
  	},
  	"closing_time": "0001-01-01T00:00:00Z",
- 	"md_5": "234979c2b03ece9b533043cd813aac32568b4a740f2958c3c84975eb4b934742",
+ 	"md_5": "3bd723c712ecc3969855ece4ec4e1c98886a527113172ef1e0375aa69e407ff4",
  	"lang_codes": [
  		"de",
  		"en"
@@ -4660,6 +4660,78 @@
  		},
  		{
  			"label": {
+ 				"de": "Ausblick 2026",
+ 				"en": "Outlook 2026"
+ 			},
+ 			"description": {
+ 				"de": "",
+ 				"en": ""
+ 			},
+ 			"short": {
+ 				"de": "Ausblick 2026",
+ 				"en": "Outlook 2026\t"
+ 			},
+ 			"style": {
+ 				"desktop": {
+ 					"grid_container_style": {},
+ 					"box_style": {
+ 						"width_max": "42rem"
+ 					},
+ 					"grid_item_style": {},
+ 					"text_style": {}
+ 				},
+ 				"mobile": {
+ 					"grid_container_style": {},
+ 					"box_style": {
+ 						"width_max": "calc(100% - 1.2rem)"
+ 					},
+ 					"grid_item_style": {},
+ 					"text_style": {}
+ 				}
+ 			},
+ 			"finished": "0001-01-01T00:00:00Z",
+ 			"groups": [
+ 				{
+ 					"bottom_vspacers": 3,
+ 					"columns": 3,
+ 					"inputs": [
+ 						{
+ 							"type": "textblock",
+ 							"label": {
+ 								"de": "\u003cb\u003e9.\u003c/b\u003e \u0026nbsp; Ausblick 2027: Was sind aus Ihrer Sicht die größten Chancen und Risiken für das Wirt\u0026shy;schaftswachstum in Deutsch\u0026shy;land im Jahr 2027?",
+ 								"en": "\u003cb\u003e9.\u003c/b\u003e \u0026nbsp; Outlook 2027: In your view, what are the greatest opportunities and risks for eco\u0026shy;nom\u0026shy;ic growth in Ger\u0026shy;ma\u0026shy;ny in 2027?"
+ 							},
+ 							"col_span": 3,
+ 							"col_span_label": 1
+ 						},
+ 						{
+ 							"name": "q9",
+ 							"type": "textarea",
+ 							"max_chars": 600,
+ 							"col_span": 3,
+ 							"col_span_control": 1
+ 						}
+ 					],
+ 					"style": {
+ 						"desktop": {
+ 							"grid_container_style": {},
+ 							"box_style": {},
+ 							"grid_item_style": {},
+ 							"text_style": {}
+ 						},
+ 						"mobile": {
+ 							"grid_container_style": {},
+ 							"box_style": {},
+ 							"grid_item_style": {},
+ 							"text_style": {}
+ 						}
+ 					},
+ 					"class": "group-row-gap-reduced"
+ 				}
+ 			]
+ 		},
+ 		{
+ 			"label": {
  				"de": "",
  				"en": ""
  			},
@@ -8847,7 +8919,7 @@
  							"accesskey": "n",
  							"col_span": 1,
  							"col_span_control": 1,
- 							"response": "12",
+ 							"response": "13",
  							"style_control": {
  								"desktop": {
  									"grid_container_style": {},
